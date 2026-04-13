@@ -1,0 +1,80 @@
+/** Font Awesome webfonts path **/
+$fa-font-path:"@fortawesome/fontawesome-free/webfonts";
+
+/** Overriding Bootstrap's contrast ratio. **/
+$min-contrast-ratio: 1.5 !default;
+
+/** Typography **/
+$font-family-base: "Saira", sans-serif;
+$headings-font-family: "Patua One", sans-serif;
+
+/** Bootstrap Colors **/
+$primary: #ff5900;
+$dark: #212529;
+$success: #038600;
+$light: #fcfcfc;
+$white: white;
+
+/** General **/
+$background-color: #fefefe;
+$nav-background-color: $dark;
+$footer-bg-color: $dark;
+$footer-bg-highlight-color: darken($dark, 1%);
+
+/** Dimensions **/
+$navbar-height: 71px;
+
+/** Texts **/
+$headings-color: $dark;
+$text-normal: black;
+$text-normal-contrast: white;
+$text-muted: #757575;
+
+/** Light Shades **/
+$light-1: #f8f9fa;
+$light-2: #e9ecef;
+$light-3: #dee2e6;
+$light-4: #ced4da;
+$light-5: #adb5bd;
+$light-6: #6c757d;
+$light-7: #495057;
+
+$light-shades-palette: (
+    $light-1,
+    $light-2,
+    $light-3,
+    $light-4,
+    $light-5,
+    $light-6,
+    $light-7,
+);
+
+/** Typography - Texts Breakpoints **/
+$texts-breakpoint-multipliers: (
+    xxxl: 1,
+    xxl: 0.95,
+    xl: 0.925,
+    lg: 0.9,
+    md: 0.875,
+    sm: 0.85
+);
+
+/** Typography - Headings Breakpoints **/
+$headings-breakpoint-multipliers: (
+    xxxl: 1,
+    xxl: 0.95,
+    xl: 0.925,
+    lg: 0.9,
+    md: 0.85,
+    sm: 0.8
+);
+
+/** Typography - Headings Base Sizes **/
+$headings-base-sizes: (
+    h1: (font-size: 3rem),
+    h2: (font-size: 2.5rem),
+    h3: (font-size: 2rem),
+    h4: (font-size: 1.5rem),
+    h5: (font-size: 1.3rem),
+    h6: (font-size: 1.1rem)
+);
