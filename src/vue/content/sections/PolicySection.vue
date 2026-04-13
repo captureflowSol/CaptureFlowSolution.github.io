@@ -52,7 +52,7 @@
             <ArticleParagraph title="Contact"
                               faIcon="pi pi-envelope"
                               :description="[
-                                  `Questions: <a href='mailto:hello@captureflowsolutions.com'>hello@captureflowsolutions.com</a>`
+                                  `Questions: <a href='mailto:captureflowsolution@gmail.com'>captureflowsolution@gmail.com</a>`
                               ]"/>
         </PageSectionContent>
     </PageSection>

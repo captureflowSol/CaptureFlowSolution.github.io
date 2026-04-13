@@ -10,26 +10,6 @@
     <Footer>
         <FooterBlock :darken="false"
                      :row="true">
-            <FooterColumn title="About"
-                          faIcon="pi pi-lightbulb me-2"
-                          :description="[
-                              `One tailored system: websites, AI bots, design and packaging workflows, manufacturer-friendly AI paths, and subscription updates.`
-                          ]"
-                          :links="[
-                              {label: `Privacy Policy`, href: `/privacy-policy`, faIcon: null},
-                          ]"
-                          :displayLinksAsButtons="false"/>
-
-            <FooterColumn title="Connect With Us"
-                          faIcon=""
-                          :description="[
-                          ]"
-                          :links="[
-                              {label: `LinkedIn`, href: `https://linkedin.com`, faIcon:`fa-brands fa-linkedin`},
-                              {label: `X`, href: `https://x.com`, faIcon:`fa-brands fa-x-twitter`},
-                          ]"
-                          :displayLinksAsButtons="true"/>
-
             <FooterColumn title="Contact Info"
                           faIcon="pi pi-envelope me-2 pe-1"
                           :description="[
@@ -37,7 +17,7 @@
                               `Book a call to scope your project`
                           ]"
                           :links="[
-                              {label: `hello@captureflowsolutions.com`, href: `mailto:hello@captureflowsolutions.com`, faIcon: 'fa-regular fa-envelope'},
+                              {label: `captureflowsolution@gmail.com`, href: `mailto:captureflowsolution@gmail.com`, faIcon: 'fa-regular fa-envelope'},
                           ]"
                           :displayLinksAsButtons="false"/>
         </FooterBlock>
