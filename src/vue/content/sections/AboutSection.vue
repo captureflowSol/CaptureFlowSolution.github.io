@@ -4,27 +4,27 @@
                  :id="props.id">
         <!-- Title -->
         <PageSectionHeader title="*About* CaptureFlow"
-                           subtitle="Capture more customers. Attract more customers."/>
+                           subtitle="A digital operating system for modern local businesses."/>
 
         <!-- Content -->
         <PageSectionContent>
             <!-- About Template -->
             <ArticleInfoBlock image="images/logo/agency-logo.png"
                               :paragraphs="[
-                                  `<b>CaptureFlow Solutions</b> helps small businesses stop losing revenue. Common gaps: missed calls, slow replies, weak websites.`,
-                                  `Many owners <b>lack a site</b>, have one that does not explain services, or have <b>no AI</b> for inquiries and missed calls.`,
-                                  `We build <b>one coordinated system</b>: custom websites and tailored AI bots—on your site and on the phone.`,
-                                  `<b>Design stays in that system</b>: branding, product visuals, packaging—via AI-assisted workflows.`,
-                                  `For small manufacturers, we add workflows for <b>SKU and packaging changes</b>, <b>customized production</b> where it fits, and <b>steady collaboration</b>.`,
-                                  `<b>Subscriptions</b> keep digital and visual assets accurate. You <b>capture more customers</b> and <b>attract more customers</b>.`
+                                  `<b>CaptureFlow Solutions</b> helps local businesses run with less chaos and more control.`,
+                                  `Most shops do not lose clients because of bad cuts. They lose revenue from <b>missed calls, no-shows, delayed replies, and weak booking flow</b>.`,
+                                  `We build <b>one connected system</b>: booking website, payment-enabled appointments, reminders, and follow-up automation.`,
+                                  `Owners get <b>real visibility</b> into schedules, staff activity, and daily revenue trends without micromanaging the chair.`,
+                                  `For advanced shops, we add <b>AI-assisted workflows</b> for communication, operational alerts, and performance reporting.`,
+                                  `<b>Subscription support</b> keeps your system current as services, pricing, and staff change.`
                               ]"/>
         </PageSectionContent>
 
         <!-- Footer -->
-        <PageSectionFooter title="Ready to *stop leaving money on the table?*"
-                           description="Share what you sell, how buyers reach you, and how often products or packaging change. We will propose one plan: capture, design, manufacturing workflows, and subscription care."
+        <PageSectionFooter title="Ready to *run your shop like a system?*"
+                           description="Tell us how you currently handle bookings, reminders, payments, and staff tracking. We will map the highest-impact upgrade path for your business."
                            :include-divider="true"
-                           button-label="Talk to us"
+                           button-label="Book barbershop consult"
                            button-fa-icon="fa-regular fa-comments"
                            button-url="#contact"/>
     </PageSection>

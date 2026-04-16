@@ -3,34 +3,34 @@
     <PageSection variant="primary"
                  :id="props.id">
         <!-- Title -->
-        <PageSectionHeader title="What clients *notice*"
-                           subtitle="Fewer missed leads. Faster booking. Stronger look."/>
+        <PageSectionHeader title="What barbershop owners *notice*"
+                           subtitle="Fewer no-shows, smoother operations, and better revenue control."/>
 
         <!-- Content -->
         <PageSectionContent>
             <ArticleTestimonials>
-                <ItemTestimonial title="Home services"
+                <ItemTestimonial title="Neighborhood barbershop"
                                  image="images/clients/client-1.png"
-                                 quote="We lost <b>after-hours calls</b> weekly. Now AI logs job type and address. I wake up to clean leads—not vague voicemail."
-                                 author="Chris M."
+                                 quote="We were losing bookings after closing time. Now inquiries are captured automatically and my morning starts with <b>clear appointment leads</b>."
+                                 author="Omar T."
                                  role="Owner"/>
 
-                <ItemTestimonial title="Appointment-based studio"
+                <ItemTestimonial title="Multi-chair shop"
                                  image="images/clients/client-2.png"
-                                 quote="The site explains packages in plain English. No more <b>ten-message</b> booking threads. Staff repeat themselves less."
-                                 author="Luza K."
+                                 quote="No more back-and-forth booking chaos. Reminders and payment flow reduced no-shows, and the team has a <b>cleaner daily schedule</b>."
+                                 author="Kevin R."
                                  role="Operations lead"/>
 
-                <ItemTestimonial title="Product brand"
+                <ItemTestimonial title="Growth-focused barbershop"
                                  image="images/clients/client-3.png"
-                                 quote="We refreshed visuals and packaging on time. The shelf look feels <b>legit</b>. It matches the product quality."
-                                 author="Daniel R."
+                                 quote="The dashboard finally showed where we were leaking revenue. We adjusted staffing and saw a stronger week without adding admin overhead."
+                                 author="Marcus L."
                                  role="Founder"/>
 
-                <ItemTestimonial title="Local retail"
+                <ItemTestimonial title="Premium grooming studio"
                                  image="images/clients/client-4.png"
-                                 quote="People stopped bouncing. Clear hours. Clear services. Fast contact. Not flashy—<b>effective</b>."
-                                 author="Elena V."
+                                 quote="Clients get fast replies, clear booking steps, and fewer missed messages. The system feels <b>professional and dependable</b>."
+                                 author="Nadia S."
                                  role="Manager"/>
             </ArticleTestimonials>
         </PageSectionContent>

@@ -4,34 +4,34 @@
                  :id="props.id">
         <!-- Title -->
         <PageSectionHeader title="What we *deliver*"
-                           subtitle="One system: your site, AI bots, design, and manufacturing workflows. Subscriptions keep it all current."/>
+                           subtitle="Purpose-built systems for barbershops: booking, communication, monitoring, and growth."/>
 
         <!-- Content -->
         <PageSectionContent>
             <ArticleFeatures>
-                <ItemFeature title="Custom websites"
+                <ItemFeature title="Barbershop booking system upgrade"
                              fa-icon="fa-solid fa-globe"
-                             description="No site—or it does not match what you sell? We build around <b>your services, area, and booking flow</b>. Same system as your AI and design—not a one-off page."/>
+                             description="We build a booking website around <b>your real services and schedule</b>. Includes online booking flow, payment-ready setup, and Google Calendar sync options."/>
 
-                <ItemFeature title="Website AI assistants"
+                <ItemFeature title="Customer communication automation"
                              fa-icon="fa-solid fa-comments"
-                             description="Visitors get plain answers on <b>what you offer, pricing context, and next steps</b>. Copy stays aligned with the rest of your CaptureFlow setup."/>
+                             description="Automate reminder and reply flow with <b>SMS, follow-up, and lead response support</b> so clients do not drop before they sit in the chair."/>
 
-                <ItemFeature title="Call and missed-call AI bots"
+                <ItemFeature title="Virtual receptionist workflows"
                              fa-icon="fa-solid fa-headset"
-                             description="Bots for phone and messaging catch leads when you are busy, closed, or on a job. They log <b>who called, what they need, and urgency</b>. You follow up with context."/>
+                             description="Handle missed calls and after-hours inquiries with AI-assisted flows that capture <b>name, requested service, preferred time, and urgency</b>."/>
 
-                <ItemFeature title="Updates and maintenance subscriptions"
+                <ItemFeature title="Barber performance dashboard"
                              fa-icon="fa-solid fa-screwdriver-wrench"
-                             description="Offers change. Sites, bots, and visuals drift. <b>Subscriptions</b> cover updates and tuning so message, design, and automation stay matched."/>
+                             description="Track appointments, service volume, and revenue patterns across your team. Get <b>clear visibility</b> without manual spreadsheet chasing."/>
 
-                <ItemFeature title="Integrated design: brand, product, and packaging"
+                <ItemFeature title="AI barbershop automation layer"
                              fa-icon="fa-solid fa-palette"
-                             description="Design is <b>in the same system</b> as web and bots. AI speeds branding, product shots, packaging, and campaign visuals. <b>Look and sell stay aligned.</b>"/>
+                             description="For advanced shops, we integrate AI-powered operational tools such as activity monitoring concepts, alerting logic, and insight workflows."/>
 
-                <ItemFeature title="Manufacturing workflows and customized production"
+                <ItemFeature title="Ongoing updates and support"
                              fa-icon="fa-solid fa-industry"
-                             description="For makers who often change <b>products or packaging</b>: AI workflows for faster iteration. <b>Customized production</b> where it fits you. <b>Regular collaboration</b> keeps art, specs, and customer assets in sync."/>
+                             description="Your offers, staff, and hours change. Subscription support keeps your site, automations, and dashboard aligned with how your shop actually runs."/>
             </ArticleFeatures>
         </PageSectionContent>
     </PageSection>

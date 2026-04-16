@@ -13,8 +13,8 @@
             <FooterColumn title="Contact Info"
                           faIcon="pi pi-envelope me-2 pe-1"
                           :description="[
-                              `Serving small businesses remotely`,
-                              `Book a call to scope your project`
+                              `Built for small businesses and grooming studios`,
+                              `Book a call to map your automation upgrade`
                           ]"
                           :links="[
                               {label: `captureflowsolution@gmail.com`, href: `mailto:captureflowsolution@gmail.com`, faIcon: 'fa-regular fa-envelope'},

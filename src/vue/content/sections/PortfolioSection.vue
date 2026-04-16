@@ -3,108 +3,101 @@
     <PageSection variant="default"
                  :id="props.id">
         <!-- Title -->
-        <PageSectionHeader title="Example *outcomes*"
-                           subtitle="Live sites—websites and chatbots in production."/>
+        <PageSectionHeader title="Barbershop *outcomes*"
+                           subtitle="What we build for shops focused on bookings, control, and retention."/>
 
         <!-- Content -->
         <PageSectionContent>
             <ArticleProjectGrid>
                 
-                <ItemProjectGrid title="*AI Design*"
-                                 category="Video"
-                                 :description="`Our <b>AI design</b> workflow: branding, product visuals, and packaging directions—fast iteration with human review. Watch the short reel, then <a href='#contact'>contact us</a> to scope your project.`"
+                <ItemProjectGrid title="Booking + Reminders System"
+                                 category="Automation"
+                                 :description="`A complete booking flow for a barbershop: online appointments, reminder automation, and cleaner daily schedule control. Built to reduce no-shows and empty chair time.`"
                                  image="images/portfolio/project-logo-0.png"
                                  video-url="videos/ai-design.mp4"
-                                 :tags="['ai design', 'creative']"
+                                 :tags="['booking', 'reminders', 'barbershop']"
                                  :links="[
-                                    { label: 'Contact us', faIcon: 'fa-regular fa-envelope', href: '#contact' }
+                                    { label: 'Book consult', faIcon: 'fa-regular fa-envelope', href: '#contact' }
                                  ]"
                 />
 
-                <ItemProjectGrid title="Wally's Wine &amp; Spirits"
-                                 category="Website · Chatbot"
-                                 :description="`Wine and spirits retail. <b>Website</b> for shopping, stories, and support. <b>Chatbot</b> for customer questions and guidance. <a href='https://www.wallywine.com/' target='_blank' rel='noopener'>wallywine.com</a>`"
+                <ItemProjectGrid title="Barber Performance Dashboard"
+                                 category="Management"
+                                 :description="`Dashboard setup for chair-level visibility: service count, booking trends, and daily revenue monitoring so owners can manage performance with confidence.`"
                                  image="images/portfolio/project-logo-1.png"
-                                 :tags="['website', 'chatbot', 'retail']"
+                                 :tags="['dashboard', 'staff tracking', 'revenue']"
                                  :links="[
-                                    { label: 'Visit site', faIcon: 'fa-solid fa-globe', href: 'https://www.wallywine.com/' },
-                                    { label: 'Contact us', faIcon: 'fa-regular fa-envelope', href: '#contact' }
+                                    { label: 'Book consult', faIcon: 'fa-regular fa-envelope', href: '#contact' }
                                  ]"
                 />
 
-                <ItemProjectGrid title="Nobu Las Vegas"
-                                 category="Website"
-                                 :description="`Japanese restaurant, bar, and lounge at Virgin Hotel. <b>Website</b> for reservations, menus, brunch, takeout, events, and media. <a href='https://www.noburestaurants.com/las-vegas/nobu-las-vegas-japanese-restaurant-bar-and-lounge' target='_blank' rel='noopener'>Nobu Las Vegas</a>`"
+                <ItemProjectGrid title="Virtual Receptionist Workflow"
+                                 category="Communication"
+                                 :description="`Missed-call and after-hours lead capture flow that collects client details and service intent, then routes follow-up tasks to the right person.`"
                                  image="images/portfolio/project-logo-2.png"
-                                 :tags="['website', 'restaurant', 'hospitality']"
+                                 :tags="['missed calls', 'lead capture', 'barbershop']"
                                  :links="[
-                                    { label: 'Visit site', faIcon: 'fa-solid fa-globe', href: 'https://www.noburestaurants.com/las-vegas/nobu-las-vegas-japanese-restaurant-bar-and-lounge' },
-                                    { label: 'Contact us', faIcon: 'fa-regular fa-envelope', href: '#contact' }
+                                    { label: 'Book consult', faIcon: 'fa-regular fa-envelope', href: '#contact' }
                                  ]"
                 />
 
-                <ItemProjectGrid title="Shawarma Paradise"
-                                 category="Website · Chatbot"
-                                 :description="`Glatt kosher Mediterranean near the Strip. <b>Website</b> for menu, hours, and visits. <b>Chatbot</b> for questions and lead capture. <a href='https://shawarmaparadise.com/' target='_blank' rel='noopener'>shawarmaparadise.com</a>`"
+                <ItemProjectGrid title="Payment-First Booking Flow"
+                                 category="Revenue Control"
+                                 :description="`Configured booking flow with payment-first logic to reduce no-shows and secure appointments before peak time slots fill up.`"
                                  image="images/portfolio/project-logo-3.png"
-                                 :tags="['website', 'chatbot', 'restaurant']"
+                                 :tags="['payments', 'no-show reduction', 'appointments']"
                                  :links="[
-                                    { label: 'Visit site', faIcon: 'fa-solid fa-globe', href: 'https://shawarmaparadise.com/' },
-                                    { label: 'Contact us', faIcon: 'fa-regular fa-envelope', href: '#contact' }
+                                    { label: 'Book consult', faIcon: 'fa-regular fa-envelope', href: '#contact' }
                                  ]"
                 />
 
-                <ItemProjectGrid title="Cap't Loui"
-                                 category="Website"
-                                 :description="`Cajun seafood boil brand since 2016. <b>Website</b> for menu, order, locations, franchise, and newsletter. <a href='https://captloui.com/' target='_blank' rel='noopener'>captloui.com</a>`"
+                <ItemProjectGrid title="Multi-Barber Capacity Planner"
+                                 category="Operations"
+                                 :description="`Workflow for balancing chair availability, appointment density, and service duration so busy shops stay efficient during rush hours.`"
                                  image="images/portfolio/project-logo-4.png"
-                                 :tags="['website', 'restaurant', 'franchise']"
+                                 :tags="['capacity', 'operations', 'calendar']"
                                  :links="[
-                                    { label: 'Visit site', faIcon: 'fa-solid fa-globe', href: 'https://captloui.com/' },
-                                    { label: 'Contact us', faIcon: 'fa-regular fa-envelope', href: '#contact' }
+                                    { label: 'Book consult', faIcon: 'fa-regular fa-envelope', href: '#contact' }
                                  ]"
                 />
 
-                <ItemProjectGrid title="Vic's Las Vegas"
-                                 category="Website"
-                                 :description="`American-Italian dining and live jazz in Symphony Park, Downtown Las Vegas. <b>Website</b> for reservations, menus, events, and private dining. <a href='https://www.vicslasvegas.com/' target='_blank' rel='noopener'>vicslasvegas.com</a>`"
+                <ItemProjectGrid title="Client Retention Follow-Up"
+                                 category="Automation"
+                                 :description="`Post-visit follow-up sequences for repeat bookings and re-engagement, helping shops keep regular clients active without manual chasing.`"
                                  image="images/portfolio/project-logo-5.png"
-                                 :tags="['website', 'restaurant', 'hospitality']"
+                                 :tags="['retention', 'repeat clients', 'automation']"
                                  :links="[
-                                    { label: 'Visit site', faIcon: 'fa-solid fa-globe', href: 'https://www.vicslasvegas.com/' },
-                                    { label: 'Contact us', faIcon: 'fa-regular fa-envelope', href: '#contact' }
+                                    { label: 'Book consult', faIcon: 'fa-regular fa-envelope', href: '#contact' }
                                  ]"
                 />
 
-                <ItemProjectGrid title="Toca Madera"
-                                 category="Website"
-                                 :description="`Bold Mexican-inspired dining (Noble 33). <b>Website</b> for locations, reservations, menu, cocktails, and happenings. <a href='https://tocamadera.com/' target='_blank' rel='noopener'>tocamadera.com</a>`"
+                <ItemProjectGrid title="AI Insights Layer"
+                                 category="Advanced"
+                                 :description="`Advanced implementation path for shops that want AI-assisted monitoring concepts, smarter alerts, and operational insight from daily activity patterns.`"
                                  image="images/portfolio/project-logo-6.png"
-                                 :tags="['website', 'restaurant', 'multi-location']"
+                                 :tags="['ai', 'insights', 'next-generation']"
                                  :links="[
-                                    { label: 'Visit site', faIcon: 'fa-solid fa-globe', href: 'https://tocamadera.com/' },
-                                    { label: 'Contact us', faIcon: 'fa-regular fa-envelope', href: '#contact' }
+                                    { label: 'Book consult', faIcon: 'fa-regular fa-envelope', href: '#contact' }
                                  ]"
                 />
 
-                <ItemProjectGrid title="Mikiya Wagyu Shabu House — Las Vegas"
-                                 category="Website"
-                                 :description="`Wagyu shabu location page. <b>Website</b> for story, wagyu, membership, and visits. <a href='https://mikiyashabu.com/project/las-vegas-nv/' target='_blank' rel='noopener'>Las Vegas, NV</a>`"
+                <ItemProjectGrid title="Launch + Support Program"
+                                 category="Subscription"
+                                 :description="`Monthly support track for barbershops that want reliable updates, new offer rollouts, and continuous tuning of booking and communication systems.`"
                                  image="images/portfolio/project-logo-7.png"
-                                 :tags="['website', 'restaurant', 'las vegas']"
+                                 :tags="['support', 'maintenance', 'growth']"
                                  :links="[
-                                    { label: 'Visit site', faIcon: 'fa-solid fa-globe', href: 'https://mikiyashabu.com/project/las-vegas-nv/' },
-                                    { label: 'Contact us', faIcon: 'fa-regular fa-envelope', href: '#contact' }
+                                    { label: 'Book consult', faIcon: 'fa-regular fa-envelope', href: '#contact' }
                                  ]"
                 />
             </ArticleProjectGrid>
         </PageSectionContent>
 
         <!-- Footer -->
-        <PageSectionFooter title="Want a plan for *your* business?"
-                           description="Share your goals and busiest hours. We will map the first high-impact steps."
+        <PageSectionFooter title="Want a plan for *your business?*"
+                           description="Share your current booking setup, no-show rate, and team structure. We will map the first high-impact automation steps."
                            :include-divider="true"
-                           button-label="Get in touch"
+                           button-label="Book strategy call"
                            button-fa-icon="fa-solid fa-message"
                            button-url="#contact"/>
     </PageSection>

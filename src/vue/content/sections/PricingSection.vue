@@ -2,71 +2,98 @@
     <!-- Pricing Section -->
     <PageSection variant="default"
                  :id="props.id">
-        <PageSectionHeader title="Service *costs*"
-                           subtitle="Simple, transparent pricing. Setup once, maintain monthly."/>
+        <PageSectionHeader title="Barbershop system *costs*"
+                           subtitle="4 clear tiers: starter, growth, premium automation, and high-ticket AI systems."/>
 
         <PageSectionContent>
             <div class="pricing-grid row g-3">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-6 col-xl-3">
                     <article class="pricing-card">
-                        <h4 class="plan-title mb-1">Website</h4>
-                        <p class="text-muted text-3 mb-3">Build and launch</p>
+                        <h4 class="plan-title mb-1">Starter Package</h4>
+                        <p class="text-muted text-3 mb-3">Entry tier</p>
 
                         <div class="price-line">
-                            <span class="price">$200</span>
+                            <span class="price">$300 - $800</span>
                             <span class="period">one-time setup</span>
                         </div>
 
                         <ul class="feature-list">
-                            <li>Professional website creation</li>
-                            <li>Core pages and layout setup</li>
-                            <li>Mobile-ready launch</li>
-                            <li>Maintenance subscription: <b>$50/month</b></li>
+                            <li>Simple website (Next.js or template)</li>
+                            <li>Basic booking system</li>
+                            <li>Mobile responsive layout</li>
+                            <li>Contact form setup</li>
                         </ul>
 
+                        <p class="plan-note">Great for first clients and portfolio building.</p>
                         <a href="#contact" class="plan-cta">Get started</a>
                     </article>
                 </div>
 
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-6 col-xl-3">
                     <article class="pricing-card pricing-card-featured">
-                        <h4 class="plan-title mb-1">Bot + Agent</h4>
-                        <p class="text-muted text-3 mb-3">Capture and assist</p>
+                        <h4 class="plan-title mb-1">Growth System</h4>
+                        <p class="text-muted text-3 mb-3"><b>Best seller</b></p>
 
                         <div class="price-line">
-                            <span class="price">$200</span>
+                            <span class="price">$800 - $2,000</span>
                             <span class="period">one-time setup</span>
                         </div>
 
                         <ul class="feature-list">
-                            <li>Bot and agent creation</li>
-                            <li>Installation and core configuration</li>
-                            <li>Lead capture flow setup</li>
-                            <li>Maintenance subscription: <b>$50/month</b></li>
+                            <li>Full booking system</li>
+                            <li>Google Calendar sync</li>
+                            <li>SMS/email reminders</li>
+                            <li>Barber dashboard</li>
+                            <li>Payments (Stripe)</li>
                         </ul>
 
+                        <p class="plan-note">Main revenue package for most barbershops.</p>
                         <a href="#contact" class="plan-cta">Get started</a>
                     </article>
                 </div>
 
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-6 col-xl-3">
                     <article class="pricing-card">
-                        <h4 class="plan-title mb-1">Image Workflow</h4>
-                        <p class="text-muted text-3 mb-3">Design automation</p>
+                        <h4 class="plan-title mb-1">Automation System</h4>
+                        <p class="text-muted text-3 mb-3">Premium tier</p>
 
                         <div class="price-line">
-                            <span class="price">$300</span>
+                            <span class="price">$2,000 - $5,000+</span>
                             <span class="period">one-time setup</span>
                         </div>
 
                         <ul class="feature-list">
-                            <li>AI image workflow creation</li>
-                            <li>Prompt and style pipeline setup</li>
-                            <li>Revision-ready process</li>
-                            <li>Maintenance subscription: <b>$100/month</b></li>
+                            <li>Everything in Growth System</li>
+                            <li>Performance dashboard</li>
+                            <li>Staff tracking</li>
+                            <li>Analytics</li>
+                            <li>Custom admin panel</li>
                         </ul>
 
+                        <p class="plan-note">Positioned as a complete business system.</p>
                         <a href="#contact" class="plan-cta">Get started</a>
+                    </article>
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <article class="pricing-card">
+                        <h4 class="plan-title mb-1">AI System</h4>
+                        <p class="text-muted text-3 mb-3">High-ticket tier</p>
+
+                        <div class="price-line">
+                            <span class="price">$5,000 - $15,000+</span>
+                            <span class="period">one-time setup</span>
+                        </div>
+
+                        <ul class="feature-list">
+                            <li>Camera integration</li>
+                            <li>AI detection</li>
+                            <li>Automation alerts</li>
+                            <li>Advanced analytics</li>
+                        </ul>
+
+                        <p class="plan-note">Best fit for serious owners and multi-location shops.</p>
+                        <a href="#contact" class="plan-cta">Book strategy call</a>
                     </article>
                 </div>
             </div>
@@ -150,5 +177,11 @@ const props = defineProps({
 .plan-cta:hover {
     color: $white;
     background-color: darken($primary, 5%);
+}
+
+.plan-note {
+    color: $text-muted;
+    font-size: 0.9rem;
+    margin: 0 0 0.8rem 0;
 }
 </style>

@@ -16,10 +16,10 @@ import ServicesSection from "/src/vue/content/sections/ServicesSection.vue"
 
 const sections = [
     new SectionInfo('hero',         HeroSection,            null,           null),
-    new SectionInfo('about',        AboutSection,           'About',        'pi pi-box'),
-    new SectionInfo('services',     ServicesSection,        'Services',     'pi pi-wrench'),
-    new SectionInfo('pricing',      PricingSection,         'Costs',        'fa-solid fa-dollar-sign'),
-    new SectionInfo('portfolio',    PortfolioSection,       'Work',         'pi pi-folder-open'),
+    new SectionInfo('about',        AboutSection,           'Barbershops',  'pi pi-box'),
+    new SectionInfo('services',     ServicesSection,        'Systems',      'pi pi-wrench'),
+    new SectionInfo('pricing',      PricingSection,         'Pricing',      'fa-solid fa-dollar-sign'),
+    new SectionInfo('portfolio',    PortfolioSection,       'Outcomes',     'pi pi-folder-open'),
     new SectionInfo('reviews',      ReviewsSection,         'Reviews',      'fa-regular fa-comment'),
 ]
 </script>
