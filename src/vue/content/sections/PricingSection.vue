@@ -2,7 +2,7 @@
     <!-- Pricing Section -->
     <PageSection variant="default"
                  :id="props.id">
-        <PageSectionHeader title="Barbershop system *costs*"
+        <PageSectionHeader title="Local business system *costs*"
                            subtitle="4 clear tiers: starter, growth, premium automation, and high-ticket AI systems."/>
 
         <PageSectionContent>
@@ -13,7 +13,7 @@
                         <p class="text-muted text-3 mb-3">Entry tier</p>
 
                         <div class="price-line">
-                            <span class="price">$300 - $800</span>
+                            <span class="price">$100 - $500</span>
                             <span class="period">one-time setup</span>
                         </div>
 
@@ -35,7 +35,7 @@
                         <p class="text-muted text-3 mb-3"><b>Best seller</b></p>
 
                         <div class="price-line">
-                            <span class="price">$800 - $2,000</span>
+                            <span class="price">$500 - $1,500</span>
                             <span class="period">one-time setup</span>
                         </div>
 
@@ -43,11 +43,11 @@
                             <li>Full booking system</li>
                             <li>Google Calendar sync</li>
                             <li>SMS/email reminders</li>
-                            <li>Barber dashboard</li>
+                            <li>Staff / operations dashboard</li>
                             <li>Payments (Stripe)</li>
                         </ul>
 
-                        <p class="plan-note">Main revenue package for most barbershops.</p>
+                        <p class="plan-note">Main revenue package for most local appointment-based businesses.</p>
                         <a href="#contact" class="plan-cta">Get started</a>
                     </article>
                 </div>

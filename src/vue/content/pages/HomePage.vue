@@ -16,7 +16,7 @@ import ServicesSection from "/src/vue/content/sections/ServicesSection.vue"
 
 const sections = [
     new SectionInfo('hero',         HeroSection,            null,           null),
-    new SectionInfo('about',        AboutSection,           'Barbershops',  'pi pi-box'),
+    new SectionInfo('about',        AboutSection,           'About',        'pi pi-box'),
     new SectionInfo('services',     ServicesSection,        'Systems',      'pi pi-wrench'),
     new SectionInfo('pricing',      PricingSection,         'Pricing',      'fa-solid fa-dollar-sign'),
     new SectionInfo('portfolio',    PortfolioSection,       'Outcomes',     'pi pi-folder-open'),

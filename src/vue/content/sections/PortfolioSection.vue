@@ -3,7 +3,7 @@
     <PageSection variant="default"
                  :id="props.id">
         <!-- Title -->
-        <PageSectionHeader title="Barbershop *outcomes*"
+        <PageSectionHeader title="Local business *outcomes*"
                            subtitle="What we build for shops focused on bookings, control, and retention."/>
 
         <!-- Content -->
@@ -12,18 +12,18 @@
                 
                 <ItemProjectGrid title="Booking + Reminders System"
                                  category="Automation"
-                                 :description="`A complete booking flow for a barbershop: online appointments, reminder automation, and cleaner daily schedule control. Built to reduce no-shows and empty chair time.`"
+                                 :description="`A complete booking flow for a local business: online appointments, reminder automation, and cleaner daily schedule control. Built to reduce no-shows and empty slots.`"
                                  image="images/portfolio/project-logo-0.png"
                                  video-url="videos/ai-design.mp4"
-                                 :tags="['booking', 'reminders', 'barbershop']"
+                                 :tags="['booking', 'reminders', 'local business']"
                                  :links="[
                                     { label: 'Book consult', faIcon: 'fa-regular fa-envelope', href: '#contact' }
                                  ]"
                 />
 
-                <ItemProjectGrid title="Barber Performance Dashboard"
+                <ItemProjectGrid title="Team performance dashboard"
                                  category="Management"
-                                 :description="`Dashboard setup for chair-level visibility: service count, booking trends, and daily revenue monitoring so owners can manage performance with confidence.`"
+                                 :description="`Dashboard setup for staff-level visibility: service count, booking trends, and daily revenue monitoring so owners can manage performance with confidence.`"
                                  image="images/portfolio/project-logo-1.png"
                                  :tags="['dashboard', 'staff tracking', 'revenue']"
                                  :links="[
@@ -35,7 +35,7 @@
                                  category="Communication"
                                  :description="`Missed-call and after-hours lead capture flow that collects client details and service intent, then routes follow-up tasks to the right person.`"
                                  image="images/portfolio/project-logo-2.png"
-                                 :tags="['missed calls', 'lead capture', 'barbershop']"
+                                 :tags="['missed calls', 'lead capture', 'local business']"
                                  :links="[
                                     { label: 'Book consult', faIcon: 'fa-regular fa-envelope', href: '#contact' }
                                  ]"
@@ -51,9 +51,9 @@
                                  ]"
                 />
 
-                <ItemProjectGrid title="Multi-Barber Capacity Planner"
+                <ItemProjectGrid title="Multi-staff capacity planner"
                                  category="Operations"
-                                 :description="`Workflow for balancing chair availability, appointment density, and service duration so busy shops stay efficient during rush hours.`"
+                                 :description="`Workflow for balancing staff availability, appointment density, and service duration so busy shops stay efficient during rush hours.`"
                                  image="images/portfolio/project-logo-4.png"
                                  :tags="['capacity', 'operations', 'calendar']"
                                  :links="[
@@ -83,7 +83,7 @@
 
                 <ItemProjectGrid title="Launch + Support Program"
                                  category="Subscription"
-                                 :description="`Monthly support track for barbershops that want reliable updates, new offer rollouts, and continuous tuning of booking and communication systems.`"
+                                 :description="`Monthly support track for local businesses that want reliable updates, new offer rollouts, and continuous tuning of booking and communication systems.`"
                                  image="images/portfolio/project-logo-7.png"
                                  :tags="['support', 'maintenance', 'growth']"
                                  :links="[

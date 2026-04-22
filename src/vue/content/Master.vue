@@ -13,7 +13,7 @@
             <FooterColumn title="Contact Info"
                           faIcon="pi pi-envelope me-2 pe-1"
                           :description="[
-                              `Built for small businesses and grooming studios`,
+                              `Built for small local businesses`,
                               `Book a call to map your automation upgrade`
                           ]"
                           :links="[

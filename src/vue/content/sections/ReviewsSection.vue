@@ -3,31 +3,31 @@
     <PageSection variant="primary"
                  :id="props.id">
         <!-- Title -->
-        <PageSectionHeader title="What barbershop owners *notice*"
+        <PageSectionHeader title="What local business owners *notice*"
                            subtitle="Fewer no-shows, smoother operations, and better revenue control."/>
 
         <!-- Content -->
         <PageSectionContent>
             <ArticleTestimonials>
-                <ItemTestimonial title="Neighborhood barbershop"
+                <ItemTestimonial title="Neighborhood service business"
                                  image="images/clients/client-1.png"
                                  quote="We were losing bookings after closing time. Now inquiries are captured automatically and my morning starts with <b>clear appointment leads</b>."
                                  author="Omar T."
                                  role="Owner"/>
 
-                <ItemTestimonial title="Multi-chair shop"
+                <ItemTestimonial title="Multi-staff shop"
                                  image="images/clients/client-2.png"
                                  quote="No more back-and-forth booking chaos. Reminders and payment flow reduced no-shows, and the team has a <b>cleaner daily schedule</b>."
                                  author="Kevin R."
                                  role="Operations lead"/>
 
-                <ItemTestimonial title="Growth-focused barbershop"
+                <ItemTestimonial title="Growth-focused local brand"
                                  image="images/clients/client-3.png"
                                  quote="The dashboard finally showed where we were leaking revenue. We adjusted staffing and saw a stronger week without adding admin overhead."
                                  author="Marcus L."
                                  role="Founder"/>
 
-                <ItemTestimonial title="Premium grooming studio"
+                <ItemTestimonial title="Appointment-based studio"
                                  image="images/clients/client-4.png"
                                  quote="Clients get fast replies, clear booking steps, and fewer missed messages. The system feels <b>professional and dependable</b>."
                                  author="Nadia S."

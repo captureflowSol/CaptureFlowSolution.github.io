@@ -4,34 +4,34 @@
                  :id="props.id">
         <!-- Title -->
         <PageSectionHeader title="What we *deliver*"
-                           subtitle="Purpose-built systems for barbershops: booking, communication, monitoring, and growth."/>
+                           subtitle="Purpose-built systems for small local businesses: booking, communication, monitoring, and growth."/>
 
         <!-- Content -->
         <PageSectionContent>
             <ArticleFeatures>
-                <ItemFeature title="Barbershop booking system upgrade"
+                <ItemFeature title="Booking system upgrade"
                              fa-icon="fa-solid fa-globe"
                              description="We build a booking website around <b>your real services and schedule</b>. Includes online booking flow, payment-ready setup, and Google Calendar sync options."/>
 
                 <ItemFeature title="Customer communication automation"
                              fa-icon="fa-solid fa-comments"
-                             description="Automate reminder and reply flow with <b>SMS, follow-up, and lead response support</b> so clients do not drop before they sit in the chair."/>
+                             description="Automate reminder and reply flow with <b>SMS, follow-up, and lead response support</b> so leads do not go cold before they book."/>
 
                 <ItemFeature title="Virtual receptionist workflows"
                              fa-icon="fa-solid fa-headset"
                              description="Handle missed calls and after-hours inquiries with AI-assisted flows that capture <b>name, requested service, preferred time, and urgency</b>."/>
 
-                <ItemFeature title="Barber performance dashboard"
+                <ItemFeature title="Team performance dashboard"
                              fa-icon="fa-solid fa-screwdriver-wrench"
                              description="Track appointments, service volume, and revenue patterns across your team. Get <b>clear visibility</b> without manual spreadsheet chasing."/>
 
-                <ItemFeature title="AI barbershop automation layer"
+                <ItemFeature title="AI business automation layer"
                              fa-icon="fa-solid fa-palette"
-                             description="For advanced shops, we integrate AI-powered operational tools such as activity monitoring concepts, alerting logic, and insight workflows."/>
+                             description="For businesses that want more, we integrate AI-powered operational tools such as activity monitoring concepts, alerting logic, and insight workflows."/>
 
                 <ItemFeature title="Ongoing updates and support"
                              fa-icon="fa-solid fa-industry"
-                             description="Your offers, staff, and hours change. Subscription support keeps your site, automations, and dashboard aligned with how your shop actually runs."/>
+                             description="Your offers, staff, and hours change. Subscription support keeps your site, automations, and dashboard aligned with how you actually operate."/>
             </ArticleFeatures>
         </PageSectionContent>
     </PageSection>
